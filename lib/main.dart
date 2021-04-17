@@ -56,10 +56,15 @@ class MyHomePage extends StatelessWidget {
                       ),
                       decoration: BoxDecoration(
                         color: Colors.white,
-                        border: Border.all(color: Colors.black, width: 2),
+                        border: Border.all(color: Colors.cyan, width: 2),
                       ),
                       child: Text(
                         transaction.amount.toString(),
+                        style: TextStyle(
+                          fontWeight: FontWeight.bold,
+                          color: Colors.cyan,
+                          fontSize: 14,
+                        ),
                       ),
                     ),
                     Column(
